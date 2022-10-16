@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="emailogin.css">
+    <script src="emailogin.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <p id="page">
+    <label>Email Id: </label>
+    <input type="email" id="inpt" pattern=".+@gmail.com" list="validemail"><br>
+    <label>Password:</label>
+    <input id="inpt2" type="password"><br>
+    <button onclick="go1()" id="btn">login</button><br>
+    </p>
+    <p id="page2">create new email(for this page)
+        <button onclick="go2()">create</button>
+    <p id="page3">Login Sucuss!!!</p>
+   
+    </p>
+    <p id="page4">
+        <label>Email Id: </label>
+        <input type="email" id="new.inpt" pattern=".+@gmail.com"><br>
+        <label>Password:</label>
+        <input id="new.inpt2" type="password"><br>
+        <button onclick="go3()" id="btn">create</button><br>
+    </p>
+    <p id="page5">succussfully created new e-mail id!!!</p>
+
+
+
+
+    <datalist id="validemail">
+        <option value="naveen123@gmail.com"></option>
+        <option value="dummy@gamail.com"></option>
+    </datalist>
+</body>
+</html>
