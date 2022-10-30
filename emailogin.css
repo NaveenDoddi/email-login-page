@@ -1,0 +1,36 @@
+p{
+    text-align: center;
+    margin-top: 50px;
+}
+body{
+    background-color: aliceblue;
+    
+}
+#page3,#page4,#page5{
+    visibility: hidden;
+}
+button{
+    padding: 4px;
+    
+}
+#page3{
+    /* succussfully created */
+    position: absolute;
+    top: 80px;
+    left: 650px
+}
+
+#page4{
+    /* created login page */
+    position: absolute;
+    top: 30px;
+    left: 600px
+}
+
+#page5{
+    /* succussfully created */
+    position: absolute;
+    top: 80px;
+    left: 600px
+}
+
