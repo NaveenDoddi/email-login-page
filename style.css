@@ -1,8 +1,9 @@
-p{
-    text-align: center;
+p,h2{
+    /* text-align: center; */
     margin-top: 50px;
 }
 body{
+    text-align: center;
     background-color: aliceblue;
     
 }
@@ -13,24 +14,3 @@ button{
     padding: 4px;
     
 }
-#page3{
-    /* succussfully created */
-    position: absolute;
-    top: 80px;
-    left: 650px
-}
-
-#page4{
-    /* created login page */
-    position: absolute;
-    top: 30px;
-    left: 600px
-}
-
-#page5{
-    /* succussfully created */
-    position: absolute;
-    top: 80px;
-    left: 600px
-}
-
